@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login</title>
+</head>
+<body>
+  <div id="background"></div>
+    <main>
+      <div id="logo"></div>
+        <div class="login" >
+          
+          <input id="email" type="email" name="email" placeholder="Email/Login">
+          
+            <input type="password" name="password" id="password" placeholder="Senha">
+        </div>
+        <div class="login1">
+          <LABEL>
+              <input  type="checkbox" name="Manter-se Conectado" > 
+              Manter-se Conectado
+              <a href="#" target="_blank" class="senha">Esqueceu a senha </a> 
+          </LABEL>
+        </div>
+        
+      <div id="button">
+        <button id="login2" onclick="login()" type="button">login</button>  
+      <p id="mensagem"></p>
+      <p id="sucesso"></p>
+      </div>
+
+      <div id="rodape">
+        <p>
+          Ainda não tem cadastro?
+        </p>
+        <br>
+        <a class="senha" href="cadastro login.html" target="blank">Cadastre-se</a>
+      </div>
+
+    </main>
+    
+    <footer>
+        <p class="PDoFooter" > Porsche</p>
+        <p id="isolado"> Todos os Direitos Reservados</p>
+        <a class="PDoFooter" href="#">Suporte</a> 
+
+    </footer>
+    <script src="./login.js"></script>
+</body>
+</html>
